@@ -13,6 +13,13 @@ body {
   font-family: "Times New Roman", Times, serif;
   /* Textos generales */
 }
+body div .logo { /* logo de la página, que al apretarlo te lleva al inicio */
+  border-radius: 20%;
+  width: 200px;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+}
 body h1 {
   color: rgb(223, 240, 230);
   text-align: center;
@@ -383,7 +390,7 @@ footer .redesSociales {
 /* Responsive para la caja con Clubes, de la página URBA. Cuando es grande la pantalla se ve normal con 6 columnas y 2 filas; achicando un poco se ven 4 columnas y 3 filas, después pasa a 3 y 4, y por último cuando es muy chica la pantalla, se ven 2 columnas de 6 filas. */
 @media screen and (max-width: 768px) {
   .cajaClubes {
-    width: 100vw;
+    width: 100%;
     height: 300px;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
