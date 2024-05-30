@@ -229,7 +229,6 @@ header .header li a:hover {
   align-items: center;
   justify-items: auto;
   justify-content: center;
-  /* Responsive para la caja con Clubes, de la página URBA. Cuando es grande la pantalla se ve normal con 6 columnas y 2 filas; achicando un poco se ven 4 columnas y 3 filas, después pasa a 3 y 4, y por último cuando es muy chica la pantalla, se ven 2 columnas de 6 filas. */
 }
 .main .cajaClubes .clubLogo {
   background-color: black;
@@ -381,6 +380,7 @@ footer .redesSociales {
   text-align: center;
 }
 
+/* Responsive para la caja con Clubes, de la página URBA. Cuando es grande la pantalla se ve normal con 6 columnas y 2 filas; achicando un poco se ven 4 columnas y 3 filas, después pasa a 3 y 4, y por último cuando es muy chica la pantalla, se ven 2 columnas de 6 filas. */
 @media screen and (max-width: 768px) {
   .cajaClubes {
     width: 100vw;
